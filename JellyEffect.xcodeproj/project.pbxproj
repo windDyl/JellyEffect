@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69A6D02D1EFBBBCA00086F10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6D02C1EFBBBCA00086F10 /* AppDelegate.swift */; };
+		69A6D02F1EFBBBCA00086F10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6D02E1EFBBBCA00086F10 /* ViewController.swift */; };
+		69A6D0321EFBBBCA00086F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A6D0301EFBBBCA00086F10 /* Main.storyboard */; };
+		69A6D0341EFBBBCA00086F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A6D0331EFBBBCA00086F10 /* Assets.xcassets */; };
+		69A6D0371EFBBBCA00086F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A6D0351EFBBBCA00086F10 /* LaunchScreen.storyboard */; };
+		69A6D0421EFBBBCA00086F10 /* JellyEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6D0411EFBBBCA00086F10 /* JellyEffectTests.swift */; };
+		69A6D04D1EFBBBCA00086F10 /* JellyEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6D04C1EFBBBCA00086F10 /* JellyEffectUITests.swift */; };
+		69A6D05B1EFBC30800086F10 /* JellyEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A6D05A1EFBC30800086F10 /* JellyEffectView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A6D03E1EFBBBCA00086F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A6D0211EFBBBCA00086F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A6D0281EFBBBCA00086F10;
+			remoteInfo = JellyEffect;
+		};
+		69A6D0491EFBBBCA00086F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A6D0211EFBBBCA00086F10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A6D0281EFBBBCA00086F10;
+			remoteInfo = JellyEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69A6D0291EFBBBCA00086F10 /* JellyEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A6D02C1EFBBBCA00086F10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69A6D02E1EFBBBCA00086F10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A6D0311EFBBBCA00086F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A6D0331EFBBBCA00086F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A6D0361EFBBBCA00086F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69A6D0381EFBBBCA00086F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A6D03D1EFBBBCA00086F10 /* JellyEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A6D0411EFBBBCA00086F10 /* JellyEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyEffectTests.swift; sourceTree = "<group>"; };
+		69A6D0431EFBBBCA00086F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A6D0481EFBBBCA00086F10 /* JellyEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A6D04C1EFBBBCA00086F10 /* JellyEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyEffectUITests.swift; sourceTree = "<group>"; };
+		69A6D04E1EFBBBCA00086F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A6D05A1EFBC30800086F10 /* JellyEffectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JellyEffectView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A6D0261EFBBBCA00086F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6D03A1EFBBBCA00086F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6D0451EFBBBCA00086F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A6D0201EFBBBCA00086F10 = {
+			isa = PBXGroup;
+			children = (
+				69A6D02B1EFBBBCA00086F10 /* JellyEffect */,
+				69A6D0401EFBBBCA00086F10 /* JellyEffectTests */,
+				69A6D04B1EFBBBCA00086F10 /* JellyEffectUITests */,
+				69A6D02A1EFBBBCA00086F10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A6D02A1EFBBBCA00086F10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A6D0291EFBBBCA00086F10 /* JellyEffect.app */,
+				69A6D03D1EFBBBCA00086F10 /* JellyEffectTests.xctest */,
+				69A6D0481EFBBBCA00086F10 /* JellyEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A6D02B1EFBBBCA00086F10 /* JellyEffect */ = {
+			isa = PBXGroup;
+			children = (
+				69A6D02C1EFBBBCA00086F10 /* AppDelegate.swift */,
+				69A6D02E1EFBBBCA00086F10 /* ViewController.swift */,
+				69A6D05A1EFBC30800086F10 /* JellyEffectView.swift */,
+				69A6D0301EFBBBCA00086F10 /* Main.storyboard */,
+				69A6D0331EFBBBCA00086F10 /* Assets.xcassets */,
+				69A6D0351EFBBBCA00086F10 /* LaunchScreen.storyboard */,
+				69A6D0381EFBBBCA00086F10 /* Info.plist */,
+			);
+			path = JellyEffect;
+			sourceTree = "<group>";
+		};
+		69A6D0401EFBBBCA00086F10 /* JellyEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				69A6D0411EFBBBCA00086F10 /* JellyEffectTests.swift */,
+				69A6D0431EFBBBCA00086F10 /* Info.plist */,
+			);
+			path = JellyEffectTests;
+			sourceTree = "<group>";
+		};
+		69A6D04B1EFBBBCA00086F10 /* JellyEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69A6D04C1EFBBBCA00086F10 /* JellyEffectUITests.swift */,
+				69A6D04E1EFBBBCA00086F10 /* Info.plist */,
+			);
+			path = JellyEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A6D0281EFBBBCA00086F10 /* JellyEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A6D0511EFBBBCA00086F10 /* Build configuration list for PBXNativeTarget "JellyEffect" */;
+			buildPhases = (
+				69A6D0251EFBBBCA00086F10 /* Sources */,
+				69A6D0261EFBBBCA00086F10 /* Frameworks */,
+				69A6D0271EFBBBCA00086F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyEffect;
+			productName = JellyEffect;
+			productReference = 69A6D0291EFBBBCA00086F10 /* JellyEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69A6D03C1EFBBBCA00086F10 /* JellyEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A6D0541EFBBBCA00086F10 /* Build configuration list for PBXNativeTarget "JellyEffectTests" */;
+			buildPhases = (
+				69A6D0391EFBBBCA00086F10 /* Sources */,
+				69A6D03A1EFBBBCA00086F10 /* Frameworks */,
+				69A6D03B1EFBBBCA00086F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A6D03F1EFBBBCA00086F10 /* PBXTargetDependency */,
+			);
+			name = JellyEffectTests;
+			productName = JellyEffectTests;
+			productReference = 69A6D03D1EFBBBCA00086F10 /* JellyEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69A6D0471EFBBBCA00086F10 /* JellyEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A6D0571EFBBBCA00086F10 /* Build configuration list for PBXNativeTarget "JellyEffectUITests" */;
+			buildPhases = (
+				69A6D0441EFBBBCA00086F10 /* Sources */,
+				69A6D0451EFBBBCA00086F10 /* Frameworks */,
+				69A6D0461EFBBBCA00086F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A6D04A1EFBBBCA00086F10 /* PBXTargetDependency */,
+			);
+			name = JellyEffectUITests;
+			productName = JellyEffectUITests;
+			productReference = 69A6D0481EFBBBCA00086F10 /* JellyEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A6D0211EFBBBCA00086F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dyLiu;
+				TargetAttributes = {
+					69A6D0281EFBBBCA00086F10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W4CV76RB68;
+						ProvisioningStyle = Automatic;
+					};
+					69A6D03C1EFBBBCA00086F10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W4CV76RB68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69A6D0281EFBBBCA00086F10;
+					};
+					69A6D0471EFBBBCA00086F10 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W4CV76RB68;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 69A6D0281EFBBBCA00086F10;
+					};
+				};
+			};
+			buildConfigurationList = 69A6D0241EFBBBCA00086F10 /* Build configuration list for PBXProject "JellyEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A6D0201EFBBBCA00086F10;
+			productRefGroup = 69A6D02A1EFBBBCA00086F10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A6D0281EFBBBCA00086F10 /* JellyEffect */,
+				69A6D03C1EFBBBCA00086F10 /* JellyEffectTests */,
+				69A6D0471EFBBBCA00086F10 /* JellyEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A6D0271EFBBBCA00086F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A6D0371EFBBBCA00086F10 /* LaunchScreen.storyboard in Resources */,
+				69A6D0341EFBBBCA00086F10 /* Assets.xcassets in Resources */,
+				69A6D0321EFBBBCA00086F10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6D03B1EFBBBCA00086F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6D0461EFBBBCA00086F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A6D0251EFBBBCA00086F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A6D02F1EFBBBCA00086F10 /* ViewController.swift in Sources */,
+				69A6D05B1EFBC30800086F10 /* JellyEffectView.swift in Sources */,
+				69A6D02D1EFBBBCA00086F10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6D0391EFBBBCA00086F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A6D0421EFBBBCA00086F10 /* JellyEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A6D0441EFBBBCA00086F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A6D04D1EFBBBCA00086F10 /* JellyEffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A6D03F1EFBBBCA00086F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A6D0281EFBBBCA00086F10 /* JellyEffect */;
+			targetProxy = 69A6D03E1EFBBBCA00086F10 /* PBXContainerItemProxy */;
+		};
+		69A6D04A1EFBBBCA00086F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A6D0281EFBBBCA00086F10 /* JellyEffect */;
+			targetProxy = 69A6D0491EFBBBCA00086F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69A6D0301EFBBBCA00086F10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A6D0311EFBBBCA00086F10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69A6D0351EFBBBCA00086F10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A6D0361EFBBBCA00086F10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A6D04F1EFBBBCA00086F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69A6D0501EFBBBCA00086F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A6D0521EFBBBCA00086F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4CV76RB68;
+				INFOPLIST_FILE = JellyEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		69A6D0531EFBBBCA00086F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4CV76RB68;
+				INFOPLIST_FILE = JellyEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		69A6D0551EFBBBCA00086F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W4CV76RB68;
+				INFOPLIST_FILE = JellyEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyEffect.app/JellyEffect";
+			};
+			name = Debug;
+		};
+		69A6D0561EFBBBCA00086F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W4CV76RB68;
+				INFOPLIST_FILE = JellyEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyEffect.app/JellyEffect";
+			};
+			name = Release;
+		};
+		69A6D0581EFBBBCA00086F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W4CV76RB68;
+				INFOPLIST_FILE = JellyEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JellyEffect;
+			};
+			name = Debug;
+		};
+		69A6D0591EFBBBCA00086F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W4CV76RB68;
+				INFOPLIST_FILE = JellyEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JellyEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JellyEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A6D0241EFBBBCA00086F10 /* Build configuration list for PBXProject "JellyEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A6D04F1EFBBBCA00086F10 /* Debug */,
+				69A6D0501EFBBBCA00086F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A6D0511EFBBBCA00086F10 /* Build configuration list for PBXNativeTarget "JellyEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A6D0521EFBBBCA00086F10 /* Debug */,
+				69A6D0531EFBBBCA00086F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69A6D0541EFBBBCA00086F10 /* Build configuration list for PBXNativeTarget "JellyEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A6D0551EFBBBCA00086F10 /* Debug */,
+				69A6D0561EFBBBCA00086F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69A6D0571EFBBBCA00086F10 /* Build configuration list for PBXNativeTarget "JellyEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A6D0581EFBBBCA00086F10 /* Debug */,
+				69A6D0591EFBBBCA00086F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A6D0211EFBBBCA00086F10 /* Project object */;
+}
